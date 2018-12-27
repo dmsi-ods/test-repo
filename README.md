@@ -9,7 +9,7 @@
  
 
 # Pretrained model
-You can download from here! 
+You can download from here!
 
 smb://docs.oxagile.com/upload/OxagileDL/Media-Entertainment/AI/models/RM-76/epoch1iter5000.pkl
 
@@ -29,11 +29,11 @@ Use 'pip install -r requirements.txt' for installing Pillow, Numpy and Glob.
 ## Co-segment two images
 For example:
 ```
-python two_image_performance.py --image1 "two_image_demo/h1.jpg" --image2 "two_image_demo/h2.jpg" --model "models/epoch1iter5000.pkl"
+python two_image_performance.py --image1 "two_image_demo/input_images/h1.jpg" --image2 "two_image_demo/input_images/h2.jpg" --output1 "two_image_demo/output_images/co_1.jpg"  --output2 "two_image_demo/output_images/co_2.jpg" --model "models/epoch1iter5000.pkl"
 ```
 
 ## Co-segment multiple images
 For example:
 ```
-python group_image_performance.py --image_path "group_image_demo/" --model "models/epoch1iter5000.pkl"
+python group_image_performance.py --image_path "group_image_demo/input_images/" --output_path "group_image_demo/output_images/" --model "models/epoch1iter5000.pkl"
 ```
