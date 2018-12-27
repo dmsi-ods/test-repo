@@ -9,10 +9,11 @@
  
 
 # Pretrained model
-You can download from here! Put it into the models folder.
+You can download from here! 
 
 https://drive.google.com/open?id=1tIsZpvgVnVxHKFSK5VpBX0cX6qJ60VSS
 
+Put it into the models folder.
 
 # Install
 
@@ -22,6 +23,7 @@ Here is the list of libraries you need to install to execute the code:
 - Pillow
 - Numpy
 - Glob
+
 Use 'pip install -r requirements.txt' for installing Pillow, Numpy and Glob. 
 
 ## Co-segment two images
