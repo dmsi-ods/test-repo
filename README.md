@@ -11,7 +11,7 @@
 # Pretrained model
 You can download from here! 
 
-https://drive.google.com/open?id=1tIsZpvgVnVxHKFSK5VpBX0cX6qJ60VSS
+smb://docs.oxagile.com/upload/OxagileDL/Media-Entertainment/AI/models/RM-76/epoch1iter5000.pkl
 
 Put it into the models folder.
 
