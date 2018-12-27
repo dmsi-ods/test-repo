@@ -29,11 +29,11 @@ Use 'pip install -r requirements.txt' for installing Pillow, Numpy and Glob.
 ## Co-segment two images
 For example:
 ```
-python TwoImagePerformance.py --image1 "TwoImageDemo/h1.jpg" --image2 "TwoImageDemo/h2.jpg" --model "models/epoch1iter5000.pkl"
+python two_image_performance.py --image1 "two_image_demo/h1.jpg" --image2 "two_image_demo/h2.jpg" --model "models/epoch1iter5000.pkl"
 ```
 
 ## Co-segment multiple images
 For example:
 ```
-python GroupImagePerformance.py --image_path "GroupImageDemo/" --model "models/epoch1iter5000.pkl"
+python group_image_performance.py --image_path "group_image_demo/" --model "models/epoch1iter5000.pkl"
 ```
